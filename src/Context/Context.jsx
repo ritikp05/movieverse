@@ -1,6 +1,6 @@
 
 
-export const API_URL = 'http://www.omdbapi.com/?apikey=6455c66'
+export const API_URL = 'https://www.omdbapi.com/?apikey=6455c66'
 import React, { createContext, useEffect, useState } from 'react'
 export const Datacontext = createContext()
 const Context = ({ children }) => {
